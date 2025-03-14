@@ -1,6 +1,6 @@
-# This script will generate a dataframe that correlate the original identifiers of each sequence 
-# with new codes in the 'gene_X_database' format.
-# The original sequence headers will then be replaced by the new codes.
+# This script takes as input a dataframe that correlates the original identifiers of each sequence 
+# with new codes in the 'gene_X_database' format and outputs a new FASTA file with the original 
+# headers replaced by the new codes.
 
 # Due to the large number of sequences to be coded, this stage was carried out in a Linux terminal.
 
