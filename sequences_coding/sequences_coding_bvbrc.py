@@ -12,9 +12,9 @@ import pandas as pd
 from Bio import SeqIO
 from Bio.SeqRecord import SeqRecord
 
-input_dir = 'uniprot'
-output_dir = 'uniprot_coded'
-dataframe_dir = 'uniprot_code_dataframes' 
+input_dir = 'bvbrc'
+output_dir = 'bvbrc_coded'
+dataframe_dir = 'bvbrc_code_dataframes' 
 
 # List all FASTA files in the input directory
 fasta_files = [f for f in os.listdir(input_dir) if f.endswith('.fasta')]
