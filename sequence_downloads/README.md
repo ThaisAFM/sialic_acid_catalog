@@ -1,0 +1,1 @@
+This folder contains the scripts used to retrieve protein sequences from multiple databases. The downloads were performed through the official APIs provided by each database, ensuring consistent and reproducible data collection.
