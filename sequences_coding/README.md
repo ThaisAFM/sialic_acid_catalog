@@ -8,7 +8,7 @@ Run sequences_coding_bvbrc.py to rename the FASTA files using the internal IDs g
 
 ## Example files:
 
-cpsK_bvbrc_nr.fasta — example input for code_generation_bvbrc.py.
+cpsK_bvbrc.fasta — example input for code_generation_bvbrc.py.
 
 cpsK_bvbrc_codes_df.csv — example output from code_generation_bvbrc.py.
 
