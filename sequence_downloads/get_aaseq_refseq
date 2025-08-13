@@ -1,6 +1,0 @@
-## Use of NCBI API (entrez) to retrieve protein sequences from RefSeq
-
-# The API is built with Bash
-# You can use a loop to iterate through a list of genes
-
-esearch -db protein -query "gene" | efilter -organism bacteria -source refseq | efetch -format fasta >> gene_refseq.fasta
