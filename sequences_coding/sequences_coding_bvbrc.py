@@ -2,30 +2,36 @@
 # with new codes in the 'gene_X_database' format and outputs a new FASTA file with the original 
 # headers replaced by the new codes.
 
-# Due to the large number of sequences to be coded, this stage was carried out in a Linux terminal.
-
 # You will need a directory named according to your database with all the fasta files, 
 # an empty directory named database_coded and a directory named database_code_dataframes 
 # containing the csv file with the codes for all sequences (result of the script described in
 # 'code_generation_bvbrc.ipynb'). 
-
-#!/usr/bin/env python3
 
 import os
 import pandas as pd
 from Bio import SeqIO
 from Bio.SeqRecord import SeqRecord
 
-input_dir = 'bvbrc'
-output_dir = 'bvbrc_coded'
-
-df = pd.read_csv('bvbrc_code_dataframes/bvbrc_merged_df.csv')
+input_dir = 'uniprot'
+output_dir = 'uniprot_coded'
+dataframe_dir = 'uniprot_code_dataframes' 
 
 # List all FASTA files in the input directory
 fasta_files = [f for f in os.listdir(input_dir) if f.endswith('.fasta')]
 
 # Loop to process each FASTA file
 for fasta_file in fasta_files:
+
+    gene_name = fasta_file.split('_')[0]
+    dataframe_filename = f"{gene_name}_uniprot_codes_df.csv"
+    dataframe_path = os.path.join(dataframe_dir, dataframe_filename)
+
+    if not os.path.exists(dataframe_path):
+        print(f"DataFrame not found for {fasta_file}: {dataframe_path}")
+        continue
+
+    df = pd.read_csv(dataframe_path)
+
     # Full path to the input file
     input_path = os.path.join(input_dir, fasta_file)
 
@@ -40,7 +46,7 @@ for fasta_file in fasta_files:
         if record.id in df['Header'].values:
             # Get the corresponding new code
             new_code = df.loc[df['Header'] == record.id, 'Gene_Code'].values[0]
-
+            
             # Create a new sequence with the updated header
             new_record = SeqRecord(record.seq, id=new_code, description='')
             new_records.append(new_record)
