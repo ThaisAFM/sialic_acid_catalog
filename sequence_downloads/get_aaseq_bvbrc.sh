@@ -1,13 +1,15 @@
+
+##!/usr/bin/env bash
 # According to the BV-BRC CLI's documentation (https://www.bv-brc.org/docs/cli_tutorial/index.html)
 
 
 # First, you'll need to extract the gene IDs from each genome:
 
-p3-echo 'product_name' | p3-find-features product > gene_ids.txt
+p3-echo <product_name> | p3-find-features product > <gene>_ids.txt
 # Replace product_name with the product name of interest, and gene with the desired name for the file where the IDs will be saved
 
 
 # Then extract the sequences for the IDs with p3-get-feature-sequence: 
 
-p3-get-feature-sequence --input gene_ids.txt --col 2 > gene.fasta
+p3-get-feature-sequence --input <gene>_ids.txt --col 2 > <gene>.fasta
 # Replace gene_ids.txt with the folder name that contains the ID list, and gene with the desired name for the file where the sequences will be saved
