@@ -25,7 +25,7 @@ The last two steps involve cross-alignments of reference sequences for the same 
 4) Cross-alignments among reference sequences
 5) Heatmap visualization of cross-alignment results among reference sequences
 
-## Functional analysis with InterProScan
+## Functional analysis with InterProScan:
 
 This section describes the functional analysis of sequences in the local database based on conserved signatures from multiple resources integrated into InterProScan.
 First, InterProScan is executed locally via its command-line interface for both local database sequences and reference sequences.
