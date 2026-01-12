@@ -1,17 +1,37 @@
 # sialic_acid_catalog
 
-Local database establishment
-1) Sequences download
-2) Remove redundancy within databases
-3) Recoding
-4) Databases merge
-5) Remove redundancy across databases
+This repository describes the steps and corresponding scripts used for the construction of a multi-level curated database of sialic acid metabolic proteins, as well as the scripts used for data visualization throughout the pipeline.
 
-Homology-based filtering and similarity analysis
+Local database establishment:
+
+This section covers the retrieval of protein sequences from public databases and additional processing steps to condense the data and make it easier to handle.
+
+1) Sequence download
+2) Removal of redundancy within individual databases
+3) Header recoding
+4) Merging of database files using the Unix cat command
+5) Removal of redundancy across databases
+6) UpSet plot representation of sequence intersections across databases
+
+Homology-based filtering and similarity analysis: 
+
+This section describes the sequence-based analyses performed in the pipeline.
+The first three steps involve the alignment of sequences from the local database against reference sequences and the analysis of the resulting alignments.
+The last two steps involve cross-alignments of reference sequences for the same protein across different organisms.
+
 1) Alignment between the local database and reference sequences
-2) Cross-alignments among reference sequences
+2) Graphical visualization of the proportion of aligned and unaligned sequences
+3) Graphical visualization of alignment-derived parameters
+4) Cross-alignments among reference sequences
+5) Heatmap visualization of cross-alignment results among reference sequences
 
 Functional analysis with InterProScan
-1) InterProScan local run
-2) Essencial signature filter
-3) Exclusion filter for inadequate signatures 
+
+This section describes the functional analysis of sequences in the local database based on conserved signatures from multiple resources integrated into InterProScan.
+First, InterProScan is executed locally via its command-line interface for both local database sequences and reference sequences.
+Second, sequences lacking the essential signature are removed from the local database.
+Finally, sequences containing signatures not observed in any of the reference sequences also removed.
+
+1) Local execution of InterProScan
+2) Essential signature filtering
+3) Exclusion of sequences with inadequate signatures
