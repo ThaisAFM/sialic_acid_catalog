@@ -1,12 +1,12 @@
 ## This folder contains the scripts used to generate dataframes with internal codes assign from original database headers for all sequences from the BV-BRC database, as an example, and to rename the FASTA files based on these codes. 
 
-## Workflow:
+# Workflow:
 
 Run code_generation_bv.py to assign internal IDs to the sequences, extracted from the original database headers.
 
 Run sequences_coding_bv.py to rename the FASTA files using the internal IDs generated in the previous step.
 
-## Example files:
+# Example files:
 
 cpsK_bv.fasta — example input for code_generation_bvbrc.py.
 
