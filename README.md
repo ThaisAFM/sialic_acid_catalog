@@ -2,7 +2,7 @@
 
 This repository describes the steps and corresponding scripts used for the construction of a multi-level curated database of sialic acid metabolic proteins, as well as the scripts used for data visualization throughout the pipeline.
 
-Local database establishment:
+## Local database establishment:
 
 This section covers the retrieval of protein sequences from public databases and additional processing steps to condense the data and make it easier to handle.
 
@@ -13,7 +13,7 @@ This section covers the retrieval of protein sequences from public databases and
 5) Removal of redundancy across databases
 6) UpSet plot representation of sequence intersections across databases
 
-Homology-based filtering and similarity analysis: 
+## Homology-based filtering and similarity analysis: 
 
 This section describes the sequence-based analyses performed in the pipeline.
 The first three steps involve the alignment of sequences from the local database against reference sequences and the analysis of the resulting alignments.
@@ -25,7 +25,7 @@ The last two steps involve cross-alignments of reference sequences for the same 
 4) Cross-alignments among reference sequences
 5) Heatmap visualization of cross-alignment results among reference sequences
 
-Functional analysis with InterProScan
+## Functional analysis with InterProScan
 
 This section describes the functional analysis of sequences in the local database based on conserved signatures from multiple resources integrated into InterProScan.
 First, InterProScan is executed locally via its command-line interface for both local database sequences and reference sequences.
