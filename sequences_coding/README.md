@@ -1,4 +1,4 @@
-## This folder contains the scripts used to generate dataframes with internal codes assign from original database headers for all sequences from the BV-BRC database and to rename the FASTA files based on these codes. 
+## This folder contains the scripts used to generate dataframes with internal codes assign from original database headers for all sequences from the BV-BRC database, as an example, and to rename the FASTA files based on these codes. 
 
 ## Workflow:
 
