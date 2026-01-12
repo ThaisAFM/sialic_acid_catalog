@@ -9,9 +9,9 @@ This section covers the retrieval of protein sequences from public databases and
 1) Sequence download: sequence_downloads (folder) 
 2) Removal of redundancy within individual databases: CDHIT_within_databases.sh
 3) Header recoding: header_recoding (folder)
-4) Merging of database files using the Unix cat command 
-5) Removal of redundancy across databases: CDHIT_across_databases.sh
-6) UpSet plot representation of sequence intersections across databases: upsetplot.ipynb
+4) Merging of database files using the Unix cat command: databases_merge.sh 
+6) Removal of redundancy across databases: CDHIT_across_databases.sh
+7) UpSet plot representation of sequence intersections across databases: upsetplot.ipynb
 
 ## Homology-based filtering and similarity analysis: 
 
