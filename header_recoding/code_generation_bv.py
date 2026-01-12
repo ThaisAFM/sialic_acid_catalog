@@ -22,7 +22,7 @@ def sequence_coding(fasta_file, input_filename, output_dir):
     # Create a DataFrame with the headers
     df = pd.DataFrame(headers, columns=['Header'])
 
-    # Add a column with gene codes in the format gene_X_UNIP
+    # Add a column with gene codes in the format gene_X_bv
     df['Gene_Code'] = [
         f"{input_filename.split('_')[0]}_{i + 1}_{input_filename.split('_')[1].replace('.fasta', '')}"
         for i in range(len(headers))
