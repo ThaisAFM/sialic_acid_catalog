@@ -21,7 +21,7 @@ The last two steps involve cross-alignments of reference sequences for the same 
 
 1) Alignment between the local database and reference sequences: alignments (folder)
 2) Graphical visualization of the proportion of aligned and unaligned sequences: unaligned_seqs.ipynb
-3) Graphical visualization of alignment-derived parameters
+3) Graphical visualization of alignment-derived parameters: alignment_parameters (folder)
 4) Cross-alignments among reference sequences
 5) Heatmap visualization of cross-alignment results among reference sequences
 
