@@ -33,5 +33,4 @@ Second, sequences lacking the essential signature are removed from the local dat
 Finally, sequences containing signatures not observed in any of the reference sequences also removed.
 
 1) Local execution of InterProScan: interproscan.sh
-2) Essential signature filtering: signatures_comparison.ipynb
-3) Exclusion of sequences with inadequate signatures: signatures_comparison.ipynb
+2) Essential signature filtering and exclusion of sequences with inadequate signatures: signatures_comparison.ipynb
