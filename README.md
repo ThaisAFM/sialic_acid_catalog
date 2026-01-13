@@ -23,7 +23,7 @@ The last two steps involve cross-alignments of reference sequences for the same 
 2) Graphical visualization of the proportion of aligned and unaligned sequences: unaligned_seqs.ipynb
 3) Graphical visualization of alignment-derived parameters: alignment_parameters (folder)
 4) Cross-alignments among reference sequences: reference_cross_alignments.sh
-5) Heatmap visualization of cross-alignment results among reference sequences
+5) Heatmap visualization of cross-alignment results among reference sequences: cross_alignment_heatmap.ipynb
 
 ## Functional analysis with InterProScan:
 
