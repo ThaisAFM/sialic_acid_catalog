@@ -7,10 +7,15 @@ This repository describes the steps and corresponding scripts used for the const
 This section covers the retrieval of protein sequences from public databases and additional processing steps to condense the data and make it easier to handle.
 
 1.1. Sequence download: sequence_downloads (folder) 
+
 1.2. Removal of redundancy within individual databases: CDHIT_within_databases.sh
+
 1.3. Header recoding: header_recoding (folder)
+
 1.4. Merging of database files using the Unix cat command: databases_merge.sh 
+
 1.5. Removal of redundancy across databases: CDHIT_across_databases.sh
+
 1.6. UpSet plot representation of sequence intersections across databases: upsetplot.ipynb
 
 ## 2. Homology-based filtering and similarity analysis: 
