@@ -10,7 +10,7 @@ This section covers the retrieval of protein sequences from public databases and
 
 1.2. Removal of redundancy within individual databases: CDHIT_within_databases.sh
 
-1.3. Header recoding: header_recoding (folder)
+1.3. Assign internal IDs from original headers and recode original FASTA: header_recoding (folder)
 
 1.4. Merging of database files using the Unix cat command: databases_merge.sh 
 
