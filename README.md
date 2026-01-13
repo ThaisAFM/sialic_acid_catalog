@@ -2,9 +2,6 @@
 
 This repository describes the steps and corresponding scripts used for the construction of a multi-level curated database of sialic acid metabolic proteins, as well as the scripts used for data visualization throughout the pipeline.
 
-<img width="1920" height="1080" alt="GitHub_flux" src="https://github.com/user-attachments/assets/4234b41f-50e8-408d-af7c-a7cf8bff8172" />
-
-
 ## 1. Local database establishment:
 
 This section covers the retrieval of protein sequences from public databases and additional processing steps to condense the data and make it easier to handle.
