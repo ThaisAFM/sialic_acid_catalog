@@ -32,6 +32,6 @@ First, InterProScan is executed locally via its command-line interface for both 
 Second, sequences lacking the essential signature are removed from the local database.
 Finally, sequences containing signatures not observed in any of the reference sequences also removed.
 
-1) Local execution of InterProScan
+1) Local execution of InterProScan: interproscan.sh
 2) Essential signature filtering
 3) Exclusion of sequences with inadequate signatures
