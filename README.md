@@ -3,6 +3,7 @@
 This repository describes the steps and corresponding scripts used for the construction of a multi-level curated database of sialic acid metabolic proteins, as well as the scripts used for data visualization throughout the pipeline.
 
 ## Pipeline Walkthrough
+(Not ready)
 
 <img width="1920" height="1080" alt="PIPELINE_WALKTHROUGH" src="https://github.com/user-attachments/assets/d421adb2-0b32-40f2-856d-f74a2c96b567" />
 
