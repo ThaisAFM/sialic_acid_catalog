@@ -1,6 +1,6 @@
 # In the directory containing the reference sequence files, all FASTA files were converted into DIAMOND database format
 
-for fasta in *.fasta; do
-    gene=$(basename "$fasta" | cut -d'_' -f1)
-    diamond makedb --in "$fasta" -d "$gene"
+for fasta in *_ref.fasta; do
+    base=$(basename "$fasta" .fasta)
+    diamond makedb --in "$fasta" -d "$base"
 done
