@@ -16,7 +16,7 @@ for f in *.fasta; do
             --query "$f" \
             --more-sensitive \
             --evalue 0.001 \
-            --max-target-seqs 0 \   # Setting this to 0 will report all alignments that were found
+            --max-target-seqs 0 \
             --max-hsps 1 \
             --db "$db" \
             --out "${f%.fasta}.outfmt6" \
