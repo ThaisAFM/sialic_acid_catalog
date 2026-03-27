@@ -4,7 +4,8 @@ This repository describes the steps and corresponding scripts used for the const
 
 ## Pipeline Walkthrough
 
-<img width="1831" height="1591" alt="pipeline walkthrough drawio" src="https://github.com/user-attachments/assets/2f1d1f8d-7fcc-4aa7-b4c1-fcbb478de7ef" />
+<img width="1831" height="1670" alt="pipeline walkthrough drawio(1)" src="https://github.com/user-attachments/assets/6e96966d-9184-4570-960f-3e737153de8c" />
+
 
 ## 1. Local database establishment:
 
