@@ -6,8 +6,6 @@ This repository describes the steps and corresponding scripts used for the const
 
 <img width="1831" height="1591" alt="pipeline walkthrough drawio" src="https://github.com/user-attachments/assets/2f1d1f8d-7fcc-4aa7-b4c1-fcbb478de7ef" />
 
-<img width="1920" height="1080" alt="PIPELINE_WALKTHROUGH" src="https://github.com/user-attachments/assets/d421adb2-0b32-40f2-856d-f74a2c96b567" />
-
 ## 1. Local database establishment:
 
 This section covers the retrieval of protein sequences from public databases and additional processing steps to condense the data and make it easier to handle.
