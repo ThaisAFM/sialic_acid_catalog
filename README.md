@@ -107,7 +107,9 @@ Third, reads are annotated with the full HUMAnN v4.0.0.alpha.1 pipeline, and the
 
 The same filtering thresholds were applied to the DIAMOND alignments against SialoCat and UniRef90, matching those of HUMAnN's translated search step (identity > 50%, e-value < 1, query coverage > 0.9), except for subject coverage. A more permissive subject coverage threshold (> 0.1) was used, because a single read cannot reach the subject coverage that HUMAnN achieves by pooling reads before computing this metric.
 
-3.1. Functional annotation of the metagenomes by alignment against DB1–DB6: metagenomes_diamond_annotation (folder)
+3.1. Functional annotation of the metagenomes by alignment against DB1–DB6 and Uniref90: metagenomes_diamond_annotation/run_diamond_reads.sh
+
+3.2. Post-processing of the outputs produced by run_diamond_reads.sh: metagenomes_diamond_annotation/diamond_reads_filter.ipynb
 
 3.2. Functional annotation of the metagenomes by alignment against UniRef90 and KO mapping: metagenomes_diamond_annotation (folder)
 
