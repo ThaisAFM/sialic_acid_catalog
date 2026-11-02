@@ -83,10 +83,6 @@ Each protein function file is first clustered at 60% sequence identity using CD-
 This section describes the functional annotation of 22 control bacterial proteomes with experimentally characterized sialic acid metabolism (Supplementary Table 2 of the manuscript).
 Protein FASTA files for each genome were downloaded from the NCBI Genome database and are available in the control_proteomes folder.
 
-Two annotation strategies were compared:
-First, the control proteomes are searched against the DB6 TM-Vec database, and hits are retained at two predicted TM-score thresholds (≥ 0.9 and ≥ 0.7).
-Second, the control proteomes are aligned against each of the six SialoCat DIAMOND databases (DIAMOND v2.1.10, top HSP only), and hits are retained when they satisfy all of the following: identity ≥ 40%, e-value ≤ 1e-4, bitscore ≥ 50, query coverage ≥ 0.4 and subject coverage ≥ 0.4.
-
 2.1. Functional annotation of the control proteomes with the DB6 TM-Vec database, followed by score filtering: tmvec/tmvec_search.sh
 
 2.2. Post-processing of the outputs produced by tmvec_search.sh: tmvec/tmvec_hits_summary.ipynb
@@ -99,11 +95,6 @@ Second, the control proteomes are aligned against each of the six SialoCat DIAMO
 
 This section describes the functional annotation of fecal metagenomes from control individuals and patients with inflammatory bowel disease (ulcerative colitis and Crohn's disease) (SRA BioProject PRJNA1198911; Orejudo et al., 2025).
 Before annotation, reads were quality-filtered with fastp v0.23.2, human reads were removed by alignment against GRCh38.p14 with bowtie2 v2.5.4 and samtools v1.22.1, and paired-end reads were merged.
-
-Three annotation strategies were compared:
-First, reads are aligned with DIAMOND BLASTX v2.0.15 against the six SialoCat databases.
-Second, reads are aligned with DIAMOND BLASTX v2.0.15 against UniRef90 (humann4_protein_database_filtered_v2019_06.dmnd, downloaded with HUMAnN v4.0.0.alpha.1), and hits are annotated with KO terms using the HUMAnN utility mapping database.
-Third, reads are annotated with the full HUMAnN v4.0.0.alpha.1 pipeline, and the output is regrouped to KO terms.
 
 3.1. Functional annotation of the metagenomes by alignment against DB1–DB6 and Uniref90: metagenomes_diamond_annotation/run_diamond_reads.sh
 
