@@ -111,6 +111,12 @@ The same filtering thresholds were applied to the DIAMOND alignments against Sia
 
 3.2. Post-processing of the outputs produced by run_diamond_reads.sh: metagenomes_diamond_annotation/diamond_reads_filter.ipynb
 
-3.2. Functional annotation of the metagenomes by alignment against UniRef90 and KO mapping: metagenomes_diamond_annotation (folder)
+3.3. Summarize DIAMOND best hits against the sialic acid databases (DB1-DB6): metagenomes_diamond_annotation/summarize_diamond_dbs.py
 
-3.3. Functional annotation of the metagenomes with HUMAnN and regrouping to KO: metagenome_humann_annotation (folder)
+3.4. Summarize DIAMOND best hits against UniRef90: metagenomes_diamond_annotation/summarize_diamond_uniref.py
+
+3.5. Functional annotation of the metagenomes with HUMAnN: metagenomes_HUMAnN_annotation/run_humann_annotation.sh
+
+3.6. Processing HUMAnN gene family tables: metagenomes_HUMAnN_annotation/process_humann_genefamilies.sh
+
+3.7. Build the table of detected sialic acid–related functions per sample, for every annotation method:     metagenomes_HUMAnN_annotation/build_detection_table.py
