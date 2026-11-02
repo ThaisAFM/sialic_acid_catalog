@@ -50,11 +50,11 @@ Finally, sequences containing signatures not observed in any of the reference se
 
 3.2. Essential signature filtering and exclusion of sequences with inadequate signatures: signatures_comparison.ipynb
 
-## Benchmark Walkthrough (NOT READY)
+## Benchmark Walkthrough
 
 This part of the repository describes how the annotation performance of the six SialoCat databases (DB1–DB6) was evaluated on genomic and metagenomic data, as well as the scripts used for each step.
 
-<img width="922" height="1718" alt="benchmark_claude drawio" src="https://github.com/user-attachments/assets/ce99bcb7-f477-4859-b2b9-9ed03c220c75" />
+<img width="922" height="1718" alt="benchmark_claude drawio(1)" src="https://github.com/user-attachments/assets/42d283ae-7ed4-4cba-93c0-9b4be6ab384b" />
 
 
 ### 1. Preparing SialoCat for annotation performance evaluation:
