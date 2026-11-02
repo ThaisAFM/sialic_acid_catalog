@@ -54,7 +54,8 @@ Finally, sequences containing signatures not observed in any of the reference se
 
 This part of the repository describes how the annotation performance of the six SialoCat databases (DB1–DB6) was evaluated on genomic and metagenomic data, as well as the scripts used for each step.
 
-<img width="1086" height="817" alt="benchmark walkthrough" src="https://github.com/user-attachments/assets/8587e6b7-3b8e-45c7-9bee-8865473ed644" />
+<img width="922" height="1718" alt="benchmark_claude drawio" src="https://github.com/user-attachments/assets/ce99bcb7-f477-4859-b2b9-9ed03c220c75" />
+
 
 ### 1. Preparing SialoCat for annotation performance evaluation:
 
