@@ -90,7 +90,9 @@ Protein FASTA files for each genome were downloaded from the NCBI Genome databas
 
 2.3. Functional annotation of the control proteomes by alignment against DB1–DB6 with DIAMOND: control_proteome_annotation/diamond_annotation.sh
 
-2.4. Post-processing of the outputs produced by diamond_annotation.sh: control_proteome_annotation/outfmt6_filter.ipynb
+2.4. Post-processing of the outputs produced by diamond_annotation.sh: control_proteome_annotation/outfmt6_filter.ipynb followed by control_proteome_annotation/diamond_hits_summary.ipynb
+
+2.5. Compare the sialic acid functions predicted for each control proteome with the functions reported in the literature, for every annotation strategy: control_proteome_annotation/annotation_summary_visualization.ipynb
 
 ### 3. Metagenomic annotation performance evaluation:
 
