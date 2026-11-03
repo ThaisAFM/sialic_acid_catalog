@@ -2,6 +2,8 @@
 
 This repository describes the steps and corresponding scripts used for the construction of a multi-level curated database of sialic acid metabolic proteins, as well as the scripts used for data visualization throughout the pipeline.
 
+https://zenodo.org/records/23928495
+
 ## Pipeline Walkthrough
 
 <img width="927" height="2478" alt="pipeline_walkthrough_vertical drawio" src="https://github.com/user-attachments/assets/0b805707-ea4a-41f3-a953-8092ca499458" />
