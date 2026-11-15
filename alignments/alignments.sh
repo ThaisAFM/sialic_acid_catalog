@@ -3,7 +3,6 @@
 # DIAMOND is used to align the local database sequences against their respective reference sequences.
 # The command is configured to report only the best hit.
 
-# diretorio: /media/Data/thais/sialic_acid_catalog/banco_de_dados/redo_all
 
 for f in *.fasta; do
     gene=$(echo "$f" | cut -d'_' -f1)   # just take the name of the gene before the first “_”
