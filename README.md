@@ -58,7 +58,7 @@ Once the initial sequences have been filtered based on their signatures (Section
 
 4.1. Final summary of the number of sequences retained at each step: `final_summary.ipynb`
 
-4.2. Graphical visualization of the signature-based filter (Section 3): `curation_visualization.ipynb`
+4.2. Graphical visualization of the signature-based filter (Section 3): `signature_filter_visualization.ipynb`
 
 ## Benchmark Walkthrough
 
