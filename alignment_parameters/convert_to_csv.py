@@ -3,7 +3,7 @@ import glob
 import os
 
 # Directory where the .outfmt6 files are located
-directory = "./"
+directory = "/media/Data/thais/sialic_acid_catalog/banco_de_dados/redo_all"
 
 # Create output directory
 output = "./csvs"
