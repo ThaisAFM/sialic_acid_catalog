@@ -6,6 +6,8 @@
 # while retaining only one high-scoring segment pair (HSP) per hit, 
 # allowing the evaluation of alignments across all reference sequences.
 
+# diretorio: /media/Data/thais/sialic_acid_catalog/banco_de_dados/redo_all/refs
+
 for f in *.fasta; do
     gene=$(echo "$f" | cut -d'_' -f1)   # gets only the gene name before the first "_"
     db="${gene}_ref.dmnd"
