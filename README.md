@@ -52,6 +52,14 @@ Finally, sequences containing signatures not observed in any of the reference se
 
 3.2. Essential signature filtering and exclusion of sequences with inadequate signatures: signatures_comparison.ipynb
 
+### 4. Final summary:
+
+Once the initial sequences have been filtered based on their signatures (Section 3) and the alignment-based filter has been applied to all signature-based databases, the resulting sequences (DB1–DB6) can be counted and summarized with the following notebooks:
+
+4.1. Final summary of the number of sequences retained at each step: `final_summary.ipynb`
+
+4.2. Graphical visualization of the signature-based filter (Section 3): `curation_visualization.ipynb`
+
 ## Benchmark Walkthrough
 
 This part of the repository describes how the annotation performance of the six SialoCat databases (DB1–DB6) was evaluated on genomic and metagenomic data, as well as the scripts used for each step.
