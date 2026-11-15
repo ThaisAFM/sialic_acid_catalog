@@ -4,4 +4,4 @@ The notebook aligned_sequences_retrieval.ipynb can be used to retrieve the align
 
 diretorio com os fastas das referencias : /media/Data/thais/sialic_acid_catalog/banco_de_dados/redo_all/refs
 
-diretorio com os .dmnd das referencias e os fastas do banco de dados: 
+diretorio com os .dmnd das referencias e os fastas do banco de dados: /media/Data/thais/sialic_acid_catalog/banco_de_dados/redo_all
