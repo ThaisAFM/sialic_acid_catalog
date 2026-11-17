@@ -1,5 +1,5 @@
-proteomes_dir="proteomes"
-db_dir="./"
+proteomes_dir="/media/Kirk/thais/SialoCat/tmVEC/proteomes"
+db_dir="/media/Kirk/thais/SialoCat/DBs"
  
 # list of databases (without the .dmnd extension)
 dbs=("DB1" "DB2" "DB3" "DB4" "DB5" "DB6")
