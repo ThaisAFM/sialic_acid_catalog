@@ -20,8 +20,8 @@
 # ------------------------------------------------------------------------------
 # Configuration (edit the paths to match your system)
 # ------------------------------------------------------------------------------
-READS_DIR="./torun"
-TMPDIR="/tmp/diamond_tmp"
+READS_DIR="/media/Kirk/gabicas_thais/Sialocat_metagenome/cleaned_reads/merged/torun"
+TMPDIR="/media/Kirk/thais/humann_databases/uniref/humann4_protein_database_filtered_v2019_06.dmnd"
 THREADS=16
 
 # database name -> .dmnd file
