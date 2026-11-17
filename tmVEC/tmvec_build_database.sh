@@ -1,6 +1,6 @@
 # https://github.com/flatironinstitute/deepblast/wiki/Building-the-TMvec-search-database
 
-INPUT_DIR="./DB6_nr60"
+INPUT_DIR="/media/Data/thais/sialic_acid_catalog/banco_de_dados/final_fastas/FASTAS_without_extra_aligned/DB6_nr60"
 MODEL="tm_vec_cath_model_large.ckpt"
 CONFIG="49181518_tm_vec_cath_model_large_params.json"
 PROTRANS="Rostlab/prot_t5_xl_uniref50"
