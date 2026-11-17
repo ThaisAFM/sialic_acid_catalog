@@ -1,3 +1,5 @@
+# diretorio = /media/Kirk/thais/SialoCat/tmVEC
+
 #!/bin/bash
 # ==============================================================================
 # TM-Vec batch search pipeline
