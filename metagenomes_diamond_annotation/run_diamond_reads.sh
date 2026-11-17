@@ -21,12 +21,12 @@
 # Configuration (edit the paths to match your system)
 # ------------------------------------------------------------------------------
 READS_DIR="/media/Kirk/gabicas_thais/Sialocat_metagenome/cleaned_reads/merged/torun"
-TMPDIR="/media/Kirk/thais/humann_databases/uniref/humann4_protein_database_filtered_v2019_06.dmnd"
+TMPDIR="./temp"
 THREADS=16
 
 # database name -> .dmnd file
 declare -A DBS=(
-    [UNIREF]="/path/to/humann4_protein_database_filtered_v2019_06.dmnd"
+    [UNIREF]="/media/Kirk/thais/humann_databases/uniref/humann4_protein_database_filtered_v2019_06.dmnd"
     [DB1]="./DB1.dmnd"
     [DB2]="./DB2.dmnd"
     [DB3]="./DB3.dmnd"
