@@ -121,4 +121,4 @@ Before annotation, reads were quality-filtered with fastp v0.23.2, human reads w
 
 3.6. Processing HUMAnN gene family tables: `metagenomes_HUMAnN_annotation/process_humann_genefamilies.sh`
 
-3.7. Build the table of detected sialic acid–related functions per sample, for every annotation method:     `metagenomes_HUMAnN_annotation/build_detection_table.py`
+3.7. Build the table of detected sialic acid–related functions per sample, for every annotation method: `metagenomic_detection_table.py`
