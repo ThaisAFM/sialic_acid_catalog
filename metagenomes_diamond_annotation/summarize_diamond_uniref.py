@@ -1,3 +1,5 @@
+# /media/Kirk/thais/SialoCat
+
 """
 Summarize DIAMOND best hits against UniRef90 (HUMAnN database), using the same
 logic as the DB1-DB6 summaries (summarize_diamond_dbs.py):
