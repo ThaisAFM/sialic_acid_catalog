@@ -23,7 +23,7 @@
 #     bash process_humann_genefamilies.sh
 # ==============================================================================
 
-HUMANN_OUT="./humann_outputs"
+HUMANN_OUT="./media/Kirk/thais/SialoCat/humann_outputs/humann_outputs_uniref"
 
 mkdir -p regrouped_ko regrouped_ec regrouped_ko_relab regrouped_ec_relab
 
