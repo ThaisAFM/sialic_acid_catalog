@@ -32,9 +32,9 @@ import pandas as pd
 # ------------------------------------------------------------------------------
 # Configuration
 # ------------------------------------------------------------------------------
-KO_TABLE = Path("humann_genefamilies_ko_relab.tsv")
-EC_TABLE = Path("humann_genefamilies_ec_relab.tsv")
-DB_DIR = Path("DBs_HITS_summary")      # folder with the *_HITS_summary_scov.tsv files
+KO_TABLE = Path("/media/Kirk/thais/SialoCat/humann_outputs/humann_outputs_uniref/humann_genefamilies_ko_relab.tsv")
+EC_TABLE = Path("/media/Kirk/thais/SialoCat/humann_outputs/humann_outputs_uniref/humann_genefamilies_ec_relab.tsv")
+DB_DIR = Path("/media/Kirk/thais/SialoCat/DBs_HITS_summary")      # folder with the *_HITS_summary_scov.tsv files
 OUTPUT = Path("plot_df_all_methods.tsv")
 
 # KEGG Orthologs of interest
