@@ -1,3 +1,5 @@
+# diretorio: /media/Kirk/thais/SialoCat
+
 """
 Summarize DIAMOND best hits against the sialic acid databases (DB1-DB6).
 
