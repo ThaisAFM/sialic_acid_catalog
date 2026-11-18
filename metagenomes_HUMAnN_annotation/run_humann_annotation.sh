@@ -22,8 +22,8 @@
 # ------------------------------------------------------------------------------
 # Configuration (edit the paths to match your system)
 # ------------------------------------------------------------------------------
-READS_DIR="./cleaned_reads"
-METAPHLAN_DB="/path/to/humann_databases/metaphlan"
+READS_DIR="./media/Kirk/gabicas_thais/Sialocat_metagenome/cleaned_reads/merged/torun"
+METAPHLAN_DB="/media/Kirk/thais/humann_databases/metaphlan"
 METAPHLAN_INDEX="mpa_vOct22_CHOCOPhlAnSGB_202403"
 METAPHLAN_OUT="./metaphlan_outputs"
 HUMANN_OUT="./humann_outputs"
