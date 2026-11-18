@@ -34,7 +34,7 @@ OUTPUT_DIR = Path("DBs_HITS_summary")
 
 
 def summarize_db(db, functions):
-    diamond_dir = Path(f"DIAMOND_{db}") / f"{db}_best_hit"
+    diamond_dir = Path(f"DIAMOND_{db}_outputs") / f"{db}_best_hit"
 
     dfs = []
     for file in glob.glob(os.path.join(diamond_dir, "*_besthit.tsv")):
